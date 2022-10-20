@@ -1,6 +1,6 @@
-import SampleComponent from './';
+import { SampleComponent } from './';
 
-// import { mockSampleComponent } from './SampleComponent.mockData.js';
+// import { SampleComponent } from './SampleComponent.mockData.js';
 
 export default {
   title: 'SampleComponent',
@@ -10,4 +10,4 @@ export default {
 const Template = (args) => <SampleComponent {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = SampleComponent.data;

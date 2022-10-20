@@ -4,7 +4,7 @@ import clsx from 'clsx';
 export const SampleComponent = ({ className }) => {
   return (
     <div className={clsx(className)}>
-      <p>SampleComponent</p>
+      <p className="text-red-500">SampleComponent</p>
     </div>
   );
 };
